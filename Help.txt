@@ -1,0 +1,58 @@
+Notes for HDFS assignment.
+
+Package Name: main.java.practice
+
+Maven Dependencies:
+
+i)Hadoop-hdfs
+ii)Hadoop-client
+
+Hadoop Version: 2.7.3 
+
+1) Read contents of a file from HDFS
+	
+	Class Name: ReadHDFSFile
+	
+	used open method of FileSystem class.
+
+2) Copy a file from local to HDFS
+
+	Class Name: CopyFromHDFStoLocal
+	
+	used copyFromLocalFile method of FileSystem class.
+
+3) Copy a file from HDFS to local
+
+	Class Name: CopyFromLocaltoHDFS
+	
+	used copyToLocalFile method of FileSystem class.
+	
+4) Copy a file from one hdfs location to another
+
+	Class Name: CopyFileFromLocationHDFS
+	
+	used copy method of the FileUtil Class.
+
+5) Move a file from one hdfs location to another
+
+	Class Name: MoveFileFromLocationHDFS
+	
+	used rename method of FileSystem class internally which will behave like '-mv' shell command.
+
+6) Create directory
+
+	Class Name: CreateDirHDFS
+	
+	used mkdirs method of the FileSystem class.
+	
+7) Create a File
+
+	Class Name: CreateHDFSFile
+	
+	used createNewFile method of the FileSystem class.
+
+8) Check whether HDFS directory exists or not
+
+	Class Name: Test
+	
+	used exists method of the FileSystem Class

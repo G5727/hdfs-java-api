@@ -1,4 +1,4 @@
-Notes for HDFS assignment.
+Notes for HDFS Java API.
 
 Package Name: main.java.practice
 
